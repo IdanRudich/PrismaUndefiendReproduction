@@ -1,8 +1,22 @@
-a reproduction of sql queries not generating correctly when using undefiend on mssql.
-Forked directly from https://github.com/prisma/prisma-examples/tree/latest/typescript/graphql
+a reproduction of sql queries not generating correctly when using undefiend on mssql.  
+Forked directly from https://github.com/prisma/prisma-examples/tree/latest/typescript/graphql  
 And modified to use mssql with the help of: https://github.com/prisma/prisma-examples/tree/latest/databases/sql-server
 
 Also changed to use apollo-server primaraly and not graphql nexus.
+
+# Setup:
+```bash
+npm i
+docker-compose up -d
+docker ps # see db is really up and working on port 1443
+npm run generate
+npx prisma migrate deploy
+npm run create-data
+npm run dev
+```
+
+# Running the queries
+
 
 # GraphQL Server Example
 

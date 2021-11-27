@@ -17,7 +17,7 @@ npm run dev
 
 # Running the queries
 First, we would run the resolver without the undefiend side affect by going to http://localhost:4000/ and runnign the following query:
-```
+```graphql
 query ExampleQuery {
   getPosts(id: 1) {
     id

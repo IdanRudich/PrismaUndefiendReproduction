@@ -1,6 +1,8 @@
 // Taken from https://github.com/prisma/prisma-examples/blob/latest/databases/sql-server/src/script.js
 // TODO: make seed.ts
 
+require('dotenv').config()
+
 // @ts-check
 const { PrismaClient } = require('@prisma/client')
 const prettyjson = require('prettyjson')

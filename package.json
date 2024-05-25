@@ -17,22 +17,23 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "@prisma/client": "3.5.0",
+    "@prisma/client": "^5.14.0",
     "apollo-server": "3.5.0",
+    "dotenv": "^16.4.5",
     "graphql": "15.7.2",
     "graphql-scalars": "1.13.6",
     "nexus": "1.1.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "2.3.0",
+    "@graphql-codegen/introspection": "2.1.0",
+    "@graphql-codegen/typescript": "2.4.1",
+    "@graphql-codegen/typescript-resolvers": "2.4.2",
     "@types/node": "16.11.10",
     "prettyjson": "^1.2.1",
-    "prisma": "3.5.0",
+    "prisma": "^5.14.0",
     "ts-node": "10.4.0",
     "ts-node-dev": "1.1.8",
-    "typescript": "4.5.2",
-    "@graphql-codegen/typescript-resolvers": "2.4.2",
-    "@graphql-codegen/typescript": "2.4.1",
-    "@graphql-codegen/introspection": "2.1.0"
+    "typescript": "4.5.2"
   }
 }

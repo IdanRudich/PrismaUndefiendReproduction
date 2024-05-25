@@ -12,7 +12,11 @@ docker ps # see db is really up and working on port 1443
 npm run generate
 npx prisma migrate deploy
 npm run create-data
-npm run dev
+node script.js
+
+or 
+
+npm run dev (and then the queries from below)
 ```
 
 # Running the queries
